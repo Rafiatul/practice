@@ -1,0 +1,55 @@
+@media (max-width:1050px){
+    .row{
+        padding: 0 2rem;
+    }
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .icon-image-3{
+        margin-left: 0;
+    }
+    .Team-main .team-list:nth-child(3){
+        margin-left: 0;
+    }
+    .my-style {
+       
+        width: 44%;
+    }
+    .style-3{
+        margin-left: 0;
+    }
+    .fotter-main ul li a{
+        font-size: 1.8rem;
+    }
+    .people-main .row .people-sub img{
+        float: none;
+    }
+    .people-main .row .people-sub .people-sub-details  h4{
+        text-align: center;
+        
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+    .people-main .row .people-sub .people-sub-details  h5{
+        text-align: center;
+        
+        font-size: 1.5rem;
+        color: #f7c594;
+    }
+    .get-in-main .row textarea{
+        width: 80%;
+    }
+    .get-in-main .row .name-email input{
+        width: 60%;
+    }
+}
+@media (max-width:768px){
+   nav .row{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 0;
+       padding: 0;
+   }
+}

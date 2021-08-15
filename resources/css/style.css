@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* =============== */
+/* BASIC SETUP */
+/* =============== */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+.row{
+   
+    width: 1032px;
+    margin: 0 auto;
+    
+
+}
+a{
+    text-decoration: none;
+}
+/* =============== */
+/* HEADER SECTION */
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 40em) {
+    /* #menu is the original menu */
+    .js #menu {
+        display:none;
+    }
+
+    .js .slicknav_menu {
+        display:block;
+    }
+}
+
+/* =============== */
+
+
+header{
+    margin-top: -2.1rem;
+    background-color: #753422;
+    height: 85vh;
+}
+nav{
+    background-color: #753422;
+    font-size: 1.5rem;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 2rem;
+    margin-top: -1rem;
+    z-index: 999;
+}
+header .row a img{
+    float: left;
+    height: 4rem;
+    margin-top: 5rem;
+    width: 6%;
+}
+header .row ul{
+    float: right;
+    list-style: none;
+    margin-top: 5.6rem;
+}
+header .row ul li{
+    float: left;
+    margin-left: .5rem;
+    
+}
+header .row ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    background-color: rgba(100, 58, 121 ,0);
+    border-radius: .5rem;
+    transition: .4s;
+}
+header .row ul li a:hover{
+    background-color: #e64d16;
+    border-radius: .5rem;
+    opacity: 1;
+}
+.active{
+    background-color: #e2460d;
+    border-radius: 5px;
+}
+/* =============== */
+/* HEADER SECTION */
+/* text */
+/* =============== */
+.row .hero-text-box{
+    clear: both;
+    width: 90rem;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.row .hero-text-box .hero-text{
+    padding-top: 14rem;
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+.row .hero-text-box .btn{
+    
+    width: 30%;
+    height: 65px;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #e64f18;
+    line-height: 65px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 2rem;
+    transition: .6s;
+
+}
+.row .hero-text-box .btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+}
+.row .hero-text-box .btn-hero{
+    margin-top: 60px;
+}
+/* service */
+.service-main{
+    background-color: #17c2a4;
+    overflow: hidden;
+    padding: 8rem 0;
+    text-align: center;
+    color: #fff;
+}
+.service-main h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.service-main h2::after{
+    content: "";
+    background-color: #14a58c;
+    display: block;
+    width: 9rem;
+    height: .4rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: .4rem;
+    
+    
+}
+.service-main p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+}
+.service-main .icon-image{
+    margin-top: 4rem;
+}
+.service-main .icon-image .icon-img{
+    width: rem;
+}
+.service-main .icon-image h3{
+    margin-top: 2rem;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.service-main .icon-image img p{}
+
+/* =============== */
+/* team*/
+/* =============== */
+.Team-main{
+    background-color: #e7f1f8;
+    overflow: hidden;
+    padding: 8rem 0;
+    text-align: center;
+    margin: auto;
+     
+}
+.Team-main h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.Team-main h2::after{
+    content: "";
+    background-color: #303534;
+    display: block;
+    width: 9rem;
+    height: .4rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: .4rem;
+    
+    
+}
+.Team-main p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+}
+.Team-main .team-list{
+    margin-top: 7rem;
+    text-align: center;
+}
+.Team-main .team-list img{
+    border-radius: 50%;
+}
+.Team-main .team-list h3{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+.Team-main .team-list h5{
+    color: rgb(18, 154, 228);
+    font-size: 1rem;
+}
+.Team-main .team-list p{
+    margin-top: 1rem;
+    line-height: 3rem;
+}
+.Team-main .team-list{
+    
+    text-align: center;
+}
+.Team-main .team-list ul{
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    margin-left: 3.5rem;
+    text-align: center;
+    display: flex;
+
+    justify-content: center;
+}
+.Team-main .team-list ul li{
+   
+    margin-right: .5rem;
+}
+.Team-main .team-list ul li a{
+    display: block;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #bdd1df;
+    border-radius: 50% 50%;
+
+}
+.Team-main .team-list ul li a:hover{
+    background-color: #92a4b1;
+    color: black;
+}
+/* =============== */
+/* progress */
+/* =============== */
+.progress-main{
+    background-color: #fff;
+    overflow: hidden;
+    padding: 8rem 0;
+    text-align: center;
+    margin: auto;
+    
+}
+.progress-main .row h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.progress-main .row h2::after{
+    content: "";
+    background-color: #303534;
+    display: block;
+    width: 9rem;
+    height: .4rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: .4rem;
+}
+.progress-main .row p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+}
+/* progress design */
+.my-style {
+	margin-top: 3rem;
+	
+	margin-left: 7rem;
+}
+.my-style svg.radial-progress circle{
+    stroke: #30bae7;
+}
+.my-style svg.radial-progress .percentage{
+    fill: #3c4761;
+    font-size: 2rem;
+}
+.my-style h3{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    color: #3c4761;
+}
+.style-2 svg.radial-progress circle{
+    stroke: #d74680;
+}
+.style-3 svg.radial-progress circle{
+    stroke: #15c7a8;
+}
+.style-4 svg.radial-progress circle{
+    stroke: #eb7d4b ;
+}
+
+/* porfolio section */
+.porfolio-section{
+    background-color: #ffdd99;
+    overflow: hidden;
+    padding: 8rem 0;
+    text-align: center;
+    margin: auto;
+}
+.porfolio-section h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.porfolio-section .row h2::after{
+    content: "";
+    background-color: #e5c37f;
+    display: block;
+    width: 9rem;
+    height: .4rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: .4rem;
+}
+.porfolio-section p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+}
+.porfolio-section button{
+    display: inline-block;
+    width: 6rem;
+    height: 3rem;
+    background-color: #ebc985;
+    border-color: #ebc985;
+    border-radius: .6rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    transition: .6s;
+    
+}
+.porfolio-section button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.porfolio-section .row .my-port{
+    margin-top: 5rem;
+    margin-left: 0;
+}
+.porfolio-section .row .my-port img{
+    width: 45rem;
+    margin: 0;
+}
+.porfolio-section .row .my-port h4{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+.porfolio-section .row .btn-portfolio{
+    margin-top: 4rem;
+    display: inline-block;
+    padding: 3rem 15rem;
+    background-color: #17c2a4;
+    font-size: 2rem;
+    color: #fff;
+    border-bottom: .5rem solid #14a58c;
+    border-radius: 1rem;
+}
+/*  pepole */
+.people-main{
+    background-color: #d74680;
+    overflow: hidden;
+    padding: 8rem 0;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.people-main .row h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.people-main .row h2::after{
+    content: "";
+    background-color: #b73c6d;
+    display: block;
+    width: 9rem;
+    height: .4rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: .4rem;
+}
+.people-main .row p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+}
+.people-main .row .people-sub{
+    
+    align-items: center;
+    margin-left: 0;
+}
+.people-main .row .people-sub img{
+    width: 13rem;
+    height: auto;
+    float: left;
+    border-radius: 50%;
+}
+.people-main .row .people-sub .people-sub-details {
+    padding-left: 2rem;
+    
+}
+.people-main .row .people-sub .people-sub-details p{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+.people-main .row .people-sub .people-sub-details  h4{
+    text-align: left;
+    margin-left: 2.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.people-main .row .people-sub .people-sub-details  h5{
+    text-align: left;
+    margin-left: 2.5rem;
+    font-size: 1rem;
+    color: #f7c594;
+}
+
+/* get-in-touch */
+.get-in-main{
+    background-color: #3c5499;
+    overflow: hidden;
+    padding: 8rem 0;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.get-in-main h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+.get-in-main h2::after{
+    content: "";
+    background-color: #273a71;
+    display: block;
+    width: 9rem;
+    height: .4rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: .4rem;}
+.get-in-main p{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    line-height: 3rem;
+}
+.get-in-main .row .name-email{
+    margin-top: 2rem;
+}
+.get-in-main .row .name-email input{
+    width: 100%;
+    height: 5rem;
+    padding: 1rem 2rem;
+    background-color: #273a71;
+    border-radius: 1rem;
+    border: 1px solid #273a71;
+    color: #fff;
+    font-size: 2rem;
+    
+}
+.get-in-main .row .name-email input::placeholder{
+    color: #fff;
+    font-size: 2rem;
+    opacity: 1 ;
+    padding-left: 20px;
+}
+.get-in-main .row textarea{
+    width: 100%;
+    background-color: #273a71;
+    border-radius: 1rem;
+    border: 0;
+    height: 19rem;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.get-in-main .row textarea::placeholder{
+    color: #fff;
+    font-size: 2rem;
+    opacity: 1 ;
+    padding-left: 20px;
+}
+.get-in-main .row .sent-mm{
+    width: 29rem;
+    height: 6.5rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    background-color: #30bae7;
+    border: 0;
+    border-radius: 1rem;
+    transition: .3s;
+    cursor: pointer;
+}
+.get-in-main .row .sent-mm:hover{
+    background-color: #273a71;
+    color: #fff;
+}
+
+/* fotter */
+.fotter-main{
+    background-color: #344b8e;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.624);
+}
+.fotter-main ul{
+    padding: 0;
+    list-style: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.fotter-main ul li{
+    
+    padding: 3rem 3rem;
+}
+.fotter-main ul li a{
+    color: #fff;
+    font-size: 2.5rem;
+    transition: .4s;
+    display: inline-block;
+}
+.fotter-main ul li a:hover{
+    color: #30bae7;
+}
+
